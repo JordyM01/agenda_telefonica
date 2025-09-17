@@ -23,6 +23,7 @@ public class Program
                     break;
                 case 3:
                     Console.WriteLine("escogio Eliminar un contacto");
+                    EliminarContacto(listaDeContactos);
                     break;
                 case 4:
                     Console.WriteLine("escogio Mostrar todos los contactos");
@@ -84,8 +85,9 @@ public class Program
     {
         Console.WriteLine("Ingrese el nombre del contacto a buscar");
         string contactoBuscado = Console.ReadLine() ?? string.Empty;
+        string numero = string.Empty;
 
-        if (listaDeContactos.TryGetValue("contactoBuscado", out string numero))
+        if (listaDeContactos.TryGetValue(contactoBuscado, out numero!))
         {
             // El contacto existe en nuestra lista de contactos
             Console.WriteLine($"El numero de {contactoBuscado} es: {numero}"); // Imprimirá "El numero"
@@ -93,9 +95,8 @@ public class Program
         else
         {
             // El contacto no existe dentro de nuestra lista de contactos
-            Console.WriteLine($"La contacto {contactoBuscado}, no fue encontrado.");
+            Console.WriteLine($"El contacto {contactoBuscado}, no fue encontrado.");
         }
-
     }
 
     public static void MostrarTodosLosContactos(Dictionary<string, string> listaDeContactos)
@@ -107,6 +108,23 @@ public class Program
             contador++;
             Console.WriteLine("[{0}] Nombre: {1}, Numero: {2}",
                 contador, kvp.Key, kvp.Value);
+        }
+    }
+
+    public static void EliminarContacto(Dictionary<string, string> listaDeContactos)
+    {
+        // Use the Remove method to remove a key/value pair.
+        Console.WriteLine("Ingrese el nombre del contacto a eliminar");
+        string nombreContacto = Console.ReadLine() ?? string.Empty;
+
+        if (!listaDeContactos.ContainsKey(nombreContacto))
+        {
+            Console.WriteLine($"El contacto {nombreContacto} no existe");
+        }
+        else
+        {
+            listaDeContactos.Remove(nombreContacto);
+            Console.WriteLine("Contacto eliminado con exito");
         }
     }
 }
