@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9c/Tvr83ouQ=",
+  "success": true,
+  "projectFilePath": "/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/agenda_telefonica.csproj",
+  "expectedPackageFiles": [
+    "/home/jordym/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
