@@ -70,8 +70,7 @@ public class Program
 
     public static void AgregarContacto(Dictionary<string, string> listaDeContactos)
     {
-        Console.WriteLine("Por favor ingrese el nombre del nuevo contacto: ");
-        string nombreContacto = Console.ReadLine() ?? "";
+        string nombreContacto = ValidarExistencia(listaDeContactos, "Por favor ingrese el nombre del nuevo contacto: ");
 
         Console.WriteLine("Por favor ingrese el numero del nuevo contacto: ");
         string numeroContacto = Console.ReadLine() ?? "";
@@ -126,5 +125,25 @@ public class Program
             listaDeContactos.Remove(nombreContacto);
             Console.WriteLine("Contacto eliminado con exito");
         }
+    }
+
+    static public string ValidarExistencia(Dictionary<string, string> listaDeContactos, string mensaje)
+    {
+        string contactoBuscado = string.Empty;
+
+        do
+        {
+            Console.WriteLine(mensaje);
+            contactoBuscado = Console.ReadLine() ?? string.Empty;
+
+            if (listaDeContactos.ContainsKey(contactoBuscado))
+            {
+                Console.WriteLine($"El contacto {contactoBuscado} ya existe, por favor intente nuevamente");
+            }
+            else
+            {
+                return contactoBuscado;
+            }
+        } while (true);
     }
 }
