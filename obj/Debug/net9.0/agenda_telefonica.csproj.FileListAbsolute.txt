@@ -1,0 +1,15 @@
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/bin/Debug/net9.0/agenda_telefonica
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/bin/Debug/net9.0/agenda_telefonica.deps.json
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/bin/Debug/net9.0/agenda_telefonica.runtimeconfig.json
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/bin/Debug/net9.0/agenda_telefonica.dll
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/bin/Debug/net9.0/agenda_telefonica.pdb
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.GeneratedMSBuildEditorConfig.editorconfig
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.AssemblyInfoInputs.cache
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.AssemblyInfo.cs
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.csproj.CoreCompileInputs.cache
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.sourcelink.json
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.dll
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/refint/agenda_telefonica.dll
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.pdb
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/agenda_telefonica.genruntimeconfig.cache
+/home/jordym/Downloads/Documentos de Ingenieria en sistemas/II Semestre/Programacion estructurada/Semana 6/ejercicio/agenda_telefonica/obj/Debug/net9.0/ref/agenda_telefonica.dll
